@@ -9,15 +9,16 @@ Osuolale
 <span>.</span>
 </h1>
 <div className='dash'></div>
-  </div>
 <button className='contact-btn'>contact me</button>
+  </div>
+
       
     <div className='image-div'>
         <img className='my-image' src='/photos/program-png.jpg' alt='program' />
     </div>
 
 <div className='intro'>
-    <h3>INTRODUCTION</h3>
+    <h3 className='h3'>INTRODUCTION</h3>
    <h2> Front-end Web Developer</h2>
    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ex turpis, aliquam at nulla non, ultrices aliquam dolor.</p>
    <div className='intro-btn'>

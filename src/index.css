@@ -160,6 +160,7 @@ font-size: 50px;
 
 .second-part{
   background-color: #34343b ;
+ 
 }
 
 .first-div{
@@ -168,7 +169,8 @@ font-size: 50px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
- 
+
+
 }
 
 .first-div h3 {
@@ -194,18 +196,19 @@ margin-bottom: 11px;
   height: 265px;
   background-color: #2e2e35;
   margin-right: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 80px;
+  padding: 30px;
 }
 
 .service-box h3{
-margin-top: 75px;
+padding: 75px;
  
 }
 .box-container{
   display: flex;
   justify-content: center;
   text-align: center;
-  margin-top: 40px;
+  margin-top: 60px;
 }
 
 .third-part-div h3 {
@@ -258,10 +261,34 @@ margin-top: 75px;
   height: 425px;
   
 } */
+.portfolio-section{
+  background-color: #34343b;
+  margin-bottom: 5px;
+  width: 400px;
+  padding: 24px;
+  text-align: center;
+  justify-content: center;
+    align-items: center;
+    text-align: center;
+      margin: 0 auto;
+      margin-bottom: 45px;
+     
+}
+.portfolio-map{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+  padding: 30px;
+  grid-column-gap: 2px;
+ 
+  
+}
+
 
 .fourth-part {
   background-color: #34343b;
   position: relative;
+  height: 100vh;
   
 }
 
@@ -296,19 +323,10 @@ margin-top: 75px;
   text-align: center;
   margin: 0 auto;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
-.socials{
-  background: #36363e;
 
-   width: 90%;
-   height: 45px;
-  
-   margin: 0 auto;
-    margin-top: 90px;
-    padding-top: 16px;
-}
 
 .socials a{
  color: #e4aa48
@@ -369,6 +387,14 @@ margin-top: 75px;
       display: block;
      
     }
+    .intro-name h1{
+        font-size: 25px;
+        margin-bottom: 0px;
+    }
+
+    .sidebar-toggle{
+      margin-left: 90px;
+    }
     .nav-menu{
       display: none;
     }
@@ -388,19 +414,32 @@ margin-top: 75px;
     .imgage-div{
       display: none;
     }
+
+  
     .my-image{
       display: none;
     }
     
     .dash{
-      display: inline-block;
+      margin-bottom: 15px;
+      margin-left: 8px;
     
     }
     .contact-btn{
       margin-bottom: 40px;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+      margin-bottom: 30px;
+      margin-top: 30px;
     }
     .intro h3{
       font-size: 14px
+    }
+    .h3{
+      display: none;
     }
     .intro h2 {
       font-size: 25px;
@@ -416,15 +455,16 @@ margin-top: 75px;
     .portfolio-map{
      display: flex;
      flex-direction: column;
+    
     }
     .portfolio-section{
       display: grid;
       grid-template-rows: 1fr 1fr 1fr 1fr;
+      height: 400px;
+      width: 100%;
+     
     }
-    .socials-div{
-      display: flex;
-      flex-direction: column;
-    }
+    
     .first-div h2{
       font-size: 25px;
     }
@@ -437,9 +477,9 @@ margin-top: 75px;
         
         }
 
-        .p-div{
+        /* .p-div{
           width: 100%;
-        }
+        } */
     .introduction{
       display: flex;
       flex-direction: column;
@@ -508,21 +548,40 @@ margin-top: 75px;
                                  }
      .fourth-part-div{
       width: 100%;
+      
      }
          .portfolio-map {
            margin: 0 auto;
            display: flex;
            flex-direction: column;
-    
           
+          width: 100%;
            text-align: center;
     
          }
-                 .portfolio-sect {
-                   background-color: #34343b;
+                 .socials-div {
+                   display: flex;
+                   flex-direction: column;
                    
-                  
-                   
-        
+                   margin-top: 10px;
+                 
                  }
+                                 .socials {
+                                   background: #36363e;
+                
+                                   width: 95%;
+                                   height: 45px;
+                
+                                   margin: 25px auto;
+                                   padding: 12px;
+                        
+                                  
+                
+                                 }
+                            .service-box h3 {
+                            padding: 15px;
+                              text-align: center;
+                              align-items: center;
+                              margin-top: 13px;
+                            }
 }
