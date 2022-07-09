@@ -160,7 +160,6 @@ font-size: 50px;
 
 .second-part{
   background-color: #34343b ;
- height: 110vh;
 }
 
 .first-div{
@@ -207,7 +206,6 @@ margin-top: 75px;
   justify-content: center;
   text-align: center;
   margin-top: 40px;
-  margin-bottom: 50px;
 }
 
 .third-part-div h3 {
@@ -216,7 +214,6 @@ margin-top: 75px;
   font-size: 14px;
   font-weight: bold;
   letter-spacing: .12em;
-  margin-bottom: 10px;
 
 }
 
@@ -229,21 +226,17 @@ margin-top: 75px;
 
 }
 
-.third-part {
 
-  height: 100vh;
-}
 
 .third-part-div {
   text-align: center;
   width: 600px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 40px;
 
 }
 
-.portfolio-map{
+/* .portfolio-map{
      margin: 0 auto;
      display: flex;
      flex-direction: row;
@@ -251,20 +244,20 @@ margin-top: 75px;
      padding: 70px;
      text-align: center;
    
-}
-.portfolio-text{
+} */
+/* .portfolio-text{
   width: 290px;
   text-align: center;
-}
+} */
 
-.portfolio-sect{
+/* .portfolio-sect{
   background-color: #34343b;
   padding-top:32px;
   padding-left: 3px ;
   padding-right: 3px;
   height: 425px;
   
-}
+} */
 
 .fourth-part {
   background-color: #34343b;
@@ -277,7 +270,7 @@ margin-top: 75px;
   width: 600px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 200px;
+  /* margin-top: 200px; */
 
 }
 
@@ -309,8 +302,8 @@ margin-top: 75px;
 .socials{
   background: #36363e;
 
-   width: 350px;
-   height: 60px;
+   width: 90%;
+   height: 45px;
   
    margin: 0 auto;
     margin-top: 90px;
@@ -392,6 +385,12 @@ margin-top: 75px;
     .intro{
       max-width: 100vw;
     }
+    .imgage-div{
+      display: none;
+    }
+    .my-image{
+      display: none;
+    }
     
     .dash{
       display: inline-block;
@@ -435,6 +434,7 @@ margin-top: 75px;
 
         .first-div h3{
           font-size: 14px;
+        
         }
 
         .p-div{
@@ -452,14 +452,14 @@ margin-top: 75px;
         .second-part {
           background-color: blue;
          
-          width: 100vw;
+         
         }
      .third-part-div h2{
       font-size: 20px;
      } 
      .third-part-div p{
       font-size: 14px;
-      width: 80%;
+      width: 100%;
      }
          .first-div {
            text-align: center;
@@ -485,10 +485,11 @@ margin-top: 75px;
                                  .service-box {
                                   display: flex;
                                   flex-direction: column;
-                                   width: 80%;
+                                   width: 95%;
                                    height: 150px;
                                    background-color: #2e2e35;
-                                   margin-right: 30px;
+                                   margin-left: auto;
+                                   margin-right: auto;
                                    margin-bottom: 30px;
                                  }
                 
@@ -517,4 +518,11 @@ margin-top: 75px;
            text-align: center;
     
          }
+                 .portfolio-sect {
+                   background-color: #34343b;
+                   
+                  
+                   
+        
+                 }
 }

@@ -18,11 +18,11 @@ const Portfolio = () => {
     const {id, text, name } = data
 
     return<div key={id} className='portfolio-section'>
-        <div className='portfolio-sect'>
+        {/* <div className='portfolio-sect'>
         <img src='/photos/quiz-image.jpg' alt='name'/>
         <h4>{name}</h4>
         <p className='portfolio-text'>{text}</p>
-</div>
+</div> */}
     </div>
    })
  }

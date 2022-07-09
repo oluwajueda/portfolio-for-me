@@ -12,8 +12,8 @@ Osuolale
   </div>
 <button className='contact-btn'>contact me</button>
       
-    <div>
-        <img src='/photos/program-png.jpg' alt='program' />
+    <div className='image-div'>
+        <img className='my-image' src='/photos/program-png.jpg' alt='program' />
     </div>
 
 <div className='intro'>
