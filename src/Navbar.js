@@ -4,20 +4,22 @@ import { FaBars } from 'react-icons/fa'
 
 const Navbar = () => {
 
-    const [isNavMenuOpen, setIsNavMenuOpen] = useState(false)
+    const [showLinks, setShowLinks] = useState(false)
 
-    const openNavMenu = () =>{
-        setIsNavMenuOpen(true)
-    }
-    const closeNavMenu =() =>{
-        setIsNavMenuOpen(false)
-    }
+    
+    
   return <section id='first' className='nav-container'>
-    <nav className='navbar'>
+    <nav className='logo-link' >
+        <div className='logo-navbar'>
         <div>
             <h1 className='logo'>Ibuild<span>.</span></h1>
         </div>
-        <ul className='nav-menu'>
+
+        <button className='nav-toggle' onClick={() => setShowLinks(!showLinks)}><FaBars/></button>
+         </div>
+         {
+            showLinks && <div className='links-container show-container'>
+        <ul className='menu-nav' >
             
             <li><a href='#first'>Home</a></li>
             <li><a href='#services'>Services</a></li>
@@ -26,8 +28,10 @@ const Navbar = () => {
              
     
         </ul>
- <button className='sidebar-toggle'><FaBars/></button>
-       
+ 
+       </div>
+         }
+        
 
     </nav>
 

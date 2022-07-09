@@ -19,7 +19,7 @@ const Portfolio = () => {
 
     return<div key={id} className='portfolio-section'>
         
-        <img src='/photos/quiz-image.jpg' alt='name'/>
+        <img className='image-port' src='/photos/quiz-image.jpg' alt='name'/>
         <h4>{name}</h4>
         <p className='portfolio-text'>{text}</p>
 

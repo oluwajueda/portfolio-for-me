@@ -25,14 +25,19 @@ p{
     color: #dadada;
 }
 
-.navbar{
-  max-width: 1200px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
- 
-  margin: 0 auto;
-  padding: 25px;
+.nav-toggle{
+  display: none;
 }
+ul{
+  list-style: none;
+  display: flex;
+}
+
+.logo-link{
+  display: flex;
+  justify-content: space-between;
+}
+
 
 .nav-container{
   margin-top: 50px;
@@ -58,12 +63,15 @@ p{
   font-size: 30px;
 }
 
-.ul{
+.nav-menu{
   display: flex;
-  
+  flex-direction: row;
   list-style-type: none;
   margin-left: 170px;
 
+}
+.nav-toggle{
+  display: none;
 }
 
 ul li{
@@ -71,7 +79,7 @@ ul li{
  
 }
 
-a{
+ul a{
  text-transform: capitalize;
  letter-spacing: 1px; 
 text-decoration: none;
@@ -109,7 +117,8 @@ a:hover::before{
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 50px;
+  padding-bottom: 85px;
+  padding-top: 25px;
  
 }
 
@@ -325,8 +334,23 @@ padding: 75px;
   display: flex;
   flex-direction: row;
 }
+.socials {
+  background: #2e2e35;
+
+  width: 350px;
+  height: 45px;
 
 
+  margin: 120px auto;
+  padding: 12px;
+
+
+
+}
+.menu-nav a{
+list-style-type: none;
+text-decoration: none;
+}
 
 .socials a{
  color: #e4aa48
@@ -375,7 +399,11 @@ padding: 75px;
 }
 
 @media(max-width: 700px){
-  .sidebar-toggle {
+
+  .nav-container {
+      margin-top: 20px;
+    }
+  .nav-toggle {
       margin-left: 5px;
       border-color: transparent;
       background-color: transparent;
@@ -387,17 +415,53 @@ padding: 75px;
       display: block;
      
     }
+.logo-navbar{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.logo-link{
+  display: block;
+}
+
     .intro-name h1{
         font-size: 25px;
-        margin-bottom: 0px;
+        margin-bottom: 2px;
+      
+      
     }
+      
+    
+ul{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}    
 
-    .sidebar-toggle{
-      margin-left: 90px;
-    }
-    .nav-menu{
+     .links-container {
+       height: 0;
+       overflow: hidden;
+       transition: var(--transition);
+     }
+  
+     .show-container {
+       height: 10rem;
+     }
+        
+       
+
+        .lists-container{
+          /* height: 0;
+          overflow: hidden; */
+          transition: all 0.3s linear;
+        }
+
+        .show-container{
+          height: 10rem;
+        }
+    /* .nav-menu{
       display: none;
-    }
+    } */
     .introduction{
       display: grid;
       max-width: 90%;
@@ -422,7 +486,7 @@ padding: 75px;
     
     .dash{
       margin-bottom: 15px;
-      margin-left: 8px;
+      margin-left: 26px;
     
     }
     .contact-btn{
@@ -554,10 +618,15 @@ padding: 75px;
            margin: 0 auto;
            display: flex;
            flex-direction: column;
-          
+            justify-content: center;
           width: 100%;
            text-align: center;
     
+         }
+
+         .image-port{
+          text-align: center;
+          margin: auto;
          }
                  .socials-div {
                    display: flex;
@@ -567,7 +636,7 @@ padding: 75px;
                  
                  }
                                  .socials {
-                                   background: #36363e;
+                                   background: #2e2e35;
                 
                                    width: 95%;
                                    height: 45px;
