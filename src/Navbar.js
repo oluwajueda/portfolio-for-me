@@ -17,8 +17,7 @@ const Navbar = () => {
 
         <button className='nav-toggle' onClick={() => setShowLinks(!showLinks)}><FaBars/></button>
          </div>
-         {
-            showLinks && <div className='links-container show-container'>
+          <div className={`${showLinks?'links-container show-container':'links-container'}`}>
         <ul className='menu-nav' >
             
             <li><a href='#first'>Home</a></li>
@@ -30,7 +29,7 @@ const Navbar = () => {
         </ul>
  
        </div>
-         }
+         
         
 
     </nav>

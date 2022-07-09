@@ -41,6 +41,9 @@ ul{
 
 .nav-container{
   margin-top: 50px;
+  max-width: 1200px;
+ margin-left: auto;
+ margin-right: auto;
 }
 
 .contact-btn{
@@ -208,11 +211,17 @@ margin-bottom: 11px;
   margin-bottom: 80px;
   padding: 30px;
 }
-
-.service-box h3{
-padding: 75px;
- 
+.service-logo{
+  font-size: 58px;
+  margin-bottom: 32px;
+  margin-top: 15px;
+  color: #e4aa48;
 }
+
+.wp-logo{
+  color: #dadada;
+}
+
 .box-container{
   display: flex;
   justify-content: center;
@@ -413,13 +422,22 @@ text-decoration: none;
       cursor: pointer;
       animation: bounce 2s ease-in-out infinite;
       display: block;
+      font-size: 20px;
      
     }
 .logo-navbar{
   display: flex;
   justify-content: space-between;
+
   
 }
+.logo {
+  font-size: 20px;
+}
+.nav-container{
+  max-width: 90%;
+}
+
 .logo-link{
   display: block;
 }
@@ -441,11 +459,23 @@ ul{
      .links-container {
        height: 0;
        overflow: hidden;
-       transition: var(--transition);
+       transition: all 0.3s linear;
      }
   
      .show-container {
        height: 10rem;
+     }
+     ul a {
+      font-size: 18px;
+      
+     }
+
+     ul li {
+      margin-bottom: 5px;
+      padding: 2px;
+     }
+     .menu-nav{
+      padding-top: 32px;
      }
         
        
@@ -590,18 +620,35 @@ ul{
                                   display: flex;
                                   flex-direction: column;
                                    width: 95%;
-                                   height: 150px;
+                                   height: 250px;
                                    background-color: #2e2e35;
                                    margin-left: auto;
                                    margin-right: auto;
+                                   padding: 25px 15px;
                                    margin-bottom: 30px;
                                  }
                 
-                                 .service-box h3 {
-                                   margin-top: 75px;
+                                 
+                                .service-logo {
+                                  display: flex;
+                                  font-size: 50px;
+                                  margin-bottom: 15px;
+                                  margin-top: 15px;
+                                  color: #e4aa48;
+                                 margin: 0 auto;
+                                 margin-top: 32px;
+                                 
+                                  
+                                 
+                                }
+                                .service-box h3{
+                                  font-size: 25px;
+                                  margin-top: 15px;
+                                }
                 
-                                 }
-                
+                                .wp-logo {
+                                  color: #dadada;
+                                }
                                  .box-container {
                                    display: flex;
                                    flex-direction: column;
@@ -647,10 +694,10 @@ ul{
                                   
                 
                                  }
-                            .service-box h3 {
+                            /* .service-box h3 {
                             padding: 15px;
                               text-align: center;
                               align-items: center;
                               margin-top: 13px;
-                            }
+                            } */
 }

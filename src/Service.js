@@ -1,4 +1,6 @@
 import React from 'react'
+import{FaWordpress, FaWix} from 'react-icons/fa'
+import {BsCodeSlash} from 'react-icons/bs'
 
 const Service = () => {
   return <section id='services' className='second-part'>
@@ -13,9 +15,19 @@ const Service = () => {
          </div>
       </div>  
       <div className='box-container'>
-      <div className='service-box'><h3>Web Development</h3></div>
-      <div className='service-box'><h3>WordPress Design</h3></div>
-      <div className='service-box'><h3>Wix Design</h3></div>
+      <div className='service-box'>
+       <BsCodeSlash className='service-logo'/>
+        <h3>Web Development</h3>
+        </div>
+      <div className='service-box'>
+         <FaWordpress className='service-logo wp-logo'/>
+        <h3>WordPress Design</h3>
+        </div>
+      <div className='service-box'>
+  
+        <FaWix className='service-logo'/>
+        <h3>Wix Design</h3>
+        </div>
       </div>
   </section>
   
