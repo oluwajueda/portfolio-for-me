@@ -379,6 +379,9 @@ text-decoration: none;
   text-align: center;
   margin: 13px;
 }
+.copyright p{
+  text-align: center;
+}
 
 .back-to-top {
   position: absolute;
