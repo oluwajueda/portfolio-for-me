@@ -20,10 +20,10 @@ const Navbar = () => {
           <div className={`${showLinks?'links-container show-container':'links-container'}`}>
         <ul className='menu-nav' >
             
-            <li><a href='#first'>Home</a></li>
-            <li><a href='#services'>Services</a></li>
-            <li><a  href='#portfolio'>Portfolio</a></li>
-            <li><a  href='#contact'>Contact</a></li>
+            <li><a className='nav-link' href='#first'>Home</a></li>
+            <li><a  className='nav-link' href='#services'>Services</a></li>
+            <li><a  className='nav-link'  href='#portfolio'>Portfolio</a></li>
+            <li><a  className='nav-link' href='#contact'>Contact</a></li>
              
     
         </ul>

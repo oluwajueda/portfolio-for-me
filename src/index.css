@@ -448,8 +448,11 @@ text-decoration: none;
       
       
     }
+    .olamide{
+      font-size: 34px;
+    }
       
-    
+
 ul{
   display: flex;
   flex-direction: column;
@@ -471,13 +474,21 @@ ul{
      }
 
      ul li {
-      margin-bottom: 5px;
-      padding: 2px;
+      
+      margin-bottom: 10px;
+      padding: 5px;
      }
      .menu-nav{
       padding-top: 32px;
+     
      }
-        
+       li a{
+          padding-bottom: 20px;
+          margin-bottom: 10px;
+          padding-top: 20px;
+          margin-top: 10px;
+          font-size: 19px;
+       }
        
 
         .lists-container{
@@ -487,7 +498,7 @@ ul{
         }
 
         .show-container{
-          height: 10rem;
+          height: 12.5rem;
         }
     /* .nav-menu{
       display: none;
@@ -515,7 +526,7 @@ ul{
     }
     
     .dash{
-      margin-bottom: 15px;
+      margin-bottom: 23px;
       margin-left: 26px;
     
     }
@@ -571,9 +582,12 @@ ul{
         
         }
 
-        /* .p-div{
-          width: 100%;
-        } */
+        .p-div{
+          width: 90%;
+          text-align: center;
+          margin-left: auto;
+          margin-right: auto;
+        }
     .introduction{
       display: flex;
       flex-direction: column;
@@ -670,6 +684,11 @@ ul{
            text-align: center;
     
          }
+         .react-p{
+          width: 90%;
+          margin-left: auto;
+          margin-right: auto;
+         }
 
          .image-port{
           text-align: center;
@@ -700,4 +719,22 @@ ul{
                               align-items: center;
                               margin-top: 13px;
                             } */
+
+                            .project-name{
+                              font-size: 22px;
+                              color: #e4aa48;
+                              padding-top: 8px;
+                              padding-bottom: 8px;
+                              text-transform: capitalize;
+                              font-weight: bold;
+                            }
+            .fourth-part-div h2{
+              font-size: 25px;
+            }
+
+                        .fourth-part-div p{
+                          width: 90%;
+                          margin-left: auto;
+                          margin-right: auto;
+                        }
 }

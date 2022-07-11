@@ -3,7 +3,7 @@ import React from 'react'
 const Introduction = () => {
   return <section className='introduction'>
         <div className='intro-name'>
-<h1> Olamide
+<h1> <span className='olamide'>Olamide</span>
      <br/>
 Osuolale 
 <span>.</span>
