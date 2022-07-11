@@ -23,6 +23,7 @@ p{
     font-weight: normal;
     line-height: 26px;
     color: #dadada;
+    text-align: justify;
 }
 
 .nav-toggle{
@@ -557,6 +558,7 @@ ul{
     .intro p {
       font-size: 12px;
       width: 90vw;
+      text-align: center;
     }
     .box-container{
       display: grid;
