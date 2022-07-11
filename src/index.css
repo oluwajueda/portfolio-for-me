@@ -91,7 +91,7 @@ font-weight: bold;
   color: #dadada;
 }
 
-a:hover{
+li a:hover{
   color: #fff;
 }
 
@@ -306,7 +306,7 @@ margin-bottom: 11px;
 .fourth-part {
   background-color: #34343b;
   position: relative;
-  height: 100vh;
+ 
   
 }
 
@@ -342,6 +342,10 @@ margin-bottom: 11px;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
+ padding-top: 60px;
+ padding-bottom: 60px;
+
+ 
 }
 .socials {
   background: #2e2e35;
@@ -379,6 +383,7 @@ text-decoration: none;
   position: absolute;
   bottom: 3rem;
   right: 3rem;
+ 
 }
 
 .back-to-top a {
@@ -736,5 +741,8 @@ ul{
                           width: 90%;
                           margin-left: auto;
                           margin-right: auto;
+                        }
+                        .fourth-part{
+                          height: 100vh;
                         }
 }
