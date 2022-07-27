@@ -33,9 +33,7 @@ ul{
   list-style: none;
   display: flex;
 }
-.intro-name {
-  margin-left: 150px;
-}
+
 
 .logo-link{
   display: flex;
@@ -127,6 +125,10 @@ a:hover::before{
   padding-bottom: 85px;
   padding-top: 25px;
  
+}
+
+.intro-name{
+  margin-left: 150px;
 }
 
 .introduction h1 {
@@ -443,6 +445,8 @@ text-decoration: none;
 
   
 }
+
+
 .logo {
   font-size: 20px;
 }
@@ -454,6 +458,11 @@ text-decoration: none;
   display: block;
 }
 
+.intro-name{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
 
     .intro-name h1{
         font-size: 25px;
@@ -566,6 +575,8 @@ ul{
       font-size: 12px;
       width: 90vw;
       text-align: center;
+      margin-left: auto;
+      margin-right: auto;
     }
     .box-container{
       display: grid;
