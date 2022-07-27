@@ -17,11 +17,11 @@ const Portfolio = () => {
   <div className='portfolio-map'>
  {
    data.map((data)=>{
-    const {id, text, name } = data
+    const {id, text, name,image } = data
 
     return<div key={id} className='portfolio-section'>
         
-        <img className='image-port' src='/photos/quiz-image.jpg' alt='name'/>
+        <img className='image-port' src={image} alt='name'/>
         <h4 className='project-name'>{name}</h4>
         <p className='portfolio-text'>{text}</p>
 

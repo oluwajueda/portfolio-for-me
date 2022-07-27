@@ -13,9 +13,9 @@ Osuolale
   </div>
 
       
-    <div className='image-div'>
+    {/* <div className='image-div'>
         <img className='my-image' src='/photos/program-png.jpg' alt='program' />
-    </div>
+    </div> */}
 
 <div className='intro'>
     <h3 className='h3'>INTRODUCTION</h3>
