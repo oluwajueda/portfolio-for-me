@@ -1,6 +1,8 @@
 import React from 'react'
-import{FaWordpress, FaWix} from 'react-icons/fa'
+import{FaWordpress, FaWix, FaReact} from 'react-icons/fa'
 import {BsCodeSlash} from 'react-icons/bs'
+import {IoLogoJavascript} from 'react-icons/io'
+import {SiRedux} from 'react-icons/si'
 
 const Service = () => {
   return <section id='services' className='second-part'>
@@ -16,17 +18,17 @@ const Service = () => {
       </div>  
       <div className='box-container'>
       <div className='service-box'>
-       <BsCodeSlash className='service-logo'/>
-        <h3>Web Development</h3>
+       <IoLogoJavascript className='service-logo'/>
+        <h3>Javascript</h3>
         </div>
       <div className='service-box'>
-         <FaWordpress className='service-logo wp-logo'/>
-        <h3>WordPress Design</h3>
+         <FaReact className='service-logo wp-logo'/>
+        <h3>React JS</h3>
         </div>
       <div className='service-box'>
   
-        <FaWix className='service-logo'/>
-        <h3>Wix Design</h3>
+        <SiRedux className='service-logo'/>
+        <h3>Redux</h3>
         </div>
       </div>
   </section>

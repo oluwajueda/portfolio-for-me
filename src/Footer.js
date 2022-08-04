@@ -17,9 +17,9 @@ const Footer = () => {
       </div>
     <div className='scroll-div'>
       <div className='socials-div'>
-        <div className='socials'><a href='/'>oluwajuedaloade@gmail.com</a></div>
-        <div  className='socials'><a href='/'>@oluwajueda_lo</a></div>
-        <div  className='socials'><a href='/'>080-822-232-43</a></div>
+        <div className='socials'><a href='mailto:oluwajuedalo@gmail.com?'>oluwajuedaloade@gmail.com</a></div>
+        <div  className='socials'><a href='https://twitter.com/Oluwajueda_Lo?t=_6Ogi0CnWxn8zsEHNKvKvg&s=09'>@oluwajueda_lo</a></div>
+        <div  className='socials'><a href='tel: +234-814-2577-499'>080-822-232-43</a></div>
       </div>
       <div class="back-to-top"><a href={URL} onClick={goUp}><i><svg stroke="currentColor" fill="currentColor" 
       stroke-width="0" viewBox="0 0 320 512" height="1em" width="1em" 

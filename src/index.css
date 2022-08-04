@@ -128,7 +128,7 @@ a:hover::before{
 }
 
 .intro-name{
-  margin-left: 150px;
+  margin-left: 120px;
 }
 
 .introduction h1 {
@@ -235,6 +235,11 @@ margin-bottom: 11px;
   margin-top: 60px;
 }
 
+.image-port{
+  width: 100%;
+    height: 250px;
+}
+
 .third-part-div h3 {
   padding-top: 70px;
   color: #e4aa48;
@@ -252,7 +257,21 @@ margin-bottom: 11px;
   font-weight: 700;
 
 }
+.portfolio-section a{
+  text-decoration: none;
+}
 
+.visit{
+  padding-top: 12px;
+  margin-top: 10px;
+  color: #e4aa48;
+  font-size: 20px;
+}
+.launch{
+padding-left: 3px;
+padding-top: 6px;
+font-size: 22px;
+}
 
 
 .third-part-div {
@@ -372,7 +391,8 @@ text-decoration: none;
 }
 
 .socials a{
- color: #e4aa48
+ color: #e4aa48;
+ text-decoration: none;
 }
 
 .horizontal-footer{
@@ -718,6 +738,7 @@ ul{
          .image-port{
           text-align: center;
           margin: auto;
+         
          }
                  .socials-div {
                    display: flex;
@@ -738,6 +759,7 @@ ul{
                                   
                 
                                  }
+                                 
                             /* .service-box h3 {
                             padding: 15px;
                               text-align: center;

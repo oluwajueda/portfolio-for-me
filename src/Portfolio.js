@@ -1,5 +1,6 @@
 import React from 'react'
 import data from './data'
+import {MdLaunch} from 'react-icons/md'
 
 
 const Portfolio = () => {
@@ -17,13 +18,14 @@ const Portfolio = () => {
   <div className='portfolio-map'>
  {
    data.map((data)=>{
-    const {id, text, name,image } = data
+    const {id, text, name,image,website } = data
 
     return<div key={id} className='portfolio-section'>
         
         <img className='image-port' src={image} alt='name'/>
         <h4 className='project-name'>{name}</h4>
         <p className='portfolio-text'>{text}</p>
+       <a href={website} ><p className='visit'>visit<MdLaunch  className='launch' /></p></a>
 
     </div>
    })
