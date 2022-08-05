@@ -16,10 +16,10 @@ const data= [
     },
     {
         id:3,
-        name:'world president generator',
-        image:'public/photos/quiz-image.jpg',
-        website:'https://general-knowledge-quiz.vercel.app/',
-        text: 'I built this project because i was trying to do something different. The page displays a random current president profile of each country on a single button click'
+        name:'Payna Landing Page',
+        image:'photos/smartmockups_l6fs9hnd.jpg',
+        website:'https://payna-git-main-oluwajueda.vercel.app/',
+        text: 'I built a payroll landing page website to get potential customers or prospects'
     },
     {
         id:4,

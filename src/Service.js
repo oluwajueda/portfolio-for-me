@@ -3,6 +3,7 @@ import{FaWordpress, FaWix, FaReact} from 'react-icons/fa'
 import {BsCodeSlash} from 'react-icons/bs'
 import {IoLogoJavascript} from 'react-icons/io'
 import {SiRedux} from 'react-icons/si'
+import {TbBrandTailwind} from 'react-icons/tb'
 
 const Service = () => {
   return <section id='services' className='second-part'>
@@ -29,6 +30,11 @@ const Service = () => {
   
         <SiRedux className='service-logo'/>
         <h3>Redux</h3>
+        </div>
+      <div className='service-box'>
+  
+        <TbBrandTailwind className='service-logo wp-logo'/>
+        <h3>Tailwind CSS</h3>
         </div>
       </div>
   </section>
