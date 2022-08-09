@@ -12,14 +12,13 @@ const Footer = () => {
       <div className='fourth-part-div'>
         <h3>CONTACT US</h3>
         <h2>Ways To Contact Me</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi neque risus, facilisis at elementum non,
-         vulputate sed lorem. Mauris vel turpis maximus.</p>
+        <p>Kindly reach out to me via any of these means, I am available any time for work. Thanks</p>
       </div>
     <div className='scroll-div'>
       <div className='socials-div'>
-        <div className='socials'><a href='mailto:oluwajuedalo@gmail.com?'>oluwajuedaloade@gmail.com</a></div>
-        <div  className='socials'><a href='https://twitter.com/Oluwajueda_Lo?t=_6Ogi0CnWxn8zsEHNKvKvg&s=09'>@oluwajueda_lo</a></div>
-        <div  className='socials'><a href='tel: +234-814-2577-499'>080-822-232-43</a></div>
+        <div className='socials'><a href='mailto:oluwajuedalo@gmail.com?'>Send Me Email</a></div>
+        <div  className='socials'><a href='https://twitter.com/Oluwajueda_Lo?t=_6Ogi0CnWxn8zsEHNKvKvg&s=09'>Twitter</a></div>
+        <div  className='socials'><a href='tel: +234-814-2577-499'>Call Me</a></div>
       </div>
       <div class="back-to-top"><a href={URL} onClick={goUp}><i><svg stroke="currentColor" fill="currentColor" 
       stroke-width="0" viewBox="0 0 320 512" height="1em" width="1em" 
