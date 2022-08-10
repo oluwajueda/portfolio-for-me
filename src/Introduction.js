@@ -9,7 +9,7 @@ Osuolale
 <span>.</span>
 </h1>
 <div className='dash'></div>
-<button className='contact-btn'>contact me</button>
+<a href='https://drive.google.com/file/d/1BCbY17gDPTBk3yyQE2kvZeGyLAqLH_XP/view?usp=sharing' download><button className='contact-btn'>Download CV</button></a>
   </div>
 
       
