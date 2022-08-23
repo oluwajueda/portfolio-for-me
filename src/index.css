@@ -499,6 +499,11 @@ text-decoration: none;
       
       
     }
+
+    .intro-name a{
+      list-style-type: none;
+      text-decoration: none;
+    }
     .olamide{
       font-size: 34px;
     }
