@@ -26,7 +26,7 @@ const data= [
         id:4,
         name: 'Mini E-commerce',
         image:'photos/e-commerce-project.jpg',
-        website:'https://shop-with-us.vercel.app/',
+        website:'https://shop-with-us.vercel.app/dashboard',
         text:'I created a Mini E-commerce website where users can login and pick from the various categories of products available for sale. The Products are fetched from API'
     }
 ] 
