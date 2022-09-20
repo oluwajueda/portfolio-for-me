@@ -15,6 +15,12 @@ const data= [
         website:'https://general-knowledge-quiz.vercel.app/',
         text:'In this project i built a quiz app that text the knowledge of participants on general knowledge questions. The app is built with react and the questions were fetched from API'
     },
+     {
+        id:2,
+        name: 'wood company website',
+        image: 'photos/wood-screenshot.png',
+        website:'https://woodcompany.vercel.app/',
+        text:'In this project  built a website for a wood comapny where they can showcase their products and also use it as a means to get messages from their prospects'},
     {
         id:3,
         name:'Payna Landing Page',
